@@ -1,8 +1,6 @@
 from __future__ import annotations
 
-import pytest
-
-from dictdiff import DictDiff, Value, diff, main
+from dictdiff import diff
 
 
 def test_diff_added():

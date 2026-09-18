@@ -32,7 +32,7 @@ class DictDiff:
 
 def _walk_values(path: str, left: Any, right: Any) -> Dict[str, Dict[str, Value]]:
     diff: Dict[str, Dict[str, Value]] = {}
-    if type(left) != type(right):
+    if type(left) is not type(right):
         diff[path] = {"old": left, "new": right}
         return diff
     if isinstance(left, dict) and isinstance(right, dict):

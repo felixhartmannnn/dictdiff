@@ -61,14 +61,13 @@ Input files must contain JSON objects.
 ## Project structure
 
 ```
-dictdiff/
-  dictdiff.py     - diff engine and CLI
-  tests/
-    test_dictdiff.py
-  pyproject.toml
-  README.md
-  LICENSE
-  .gitignore
+dictdiff.py     - diff engine and CLI
+tests/
+  test_dictdiff.py
+pyproject.toml
+README.md
+LICENSE
+.gitignore
 ```
 
 ## Tags
