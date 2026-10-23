@@ -131,4 +131,8 @@ def main(argv=None) -> int:
     return 0 if result.is_empty() else 1
 
 
+if __name__ == "__main__":
+    raise SystemExit(main())
+
+
 __all__ = ["DictDiff", "Value", "diff", "main"]
