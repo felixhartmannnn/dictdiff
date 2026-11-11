@@ -61,17 +61,14 @@ Input files must contain JSON objects.
 ## Project structure
 
 ```
-.github/
-  workflows/
-    tests.yml
+.github/workflows/tests.yml
 CHANGELOG.md
 .gitignore
 LICENSE
 README.md
 dictdiff.py
 pyproject.toml
-tests/
-  test_dictdiff.py
+tests/test_dictdiff.py
 ```
 
 ## Tags
